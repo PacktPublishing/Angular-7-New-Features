@@ -1,0 +1,18 @@
+
+.vscroll-viewport {
+    height: 200px;
+    width: 50%;
+    border: 1px solid black;
+    text-align: left;
+    float: left;
+    padding: 5px;
+  }
+  
+.vscroll-item {
+    height: 50px;
+}
+
+.vscroll-list-item {
+    padding:5px;
+}
+  

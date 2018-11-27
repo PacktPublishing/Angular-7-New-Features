@@ -1,0 +1,28 @@
+<h3>{{title}}</h3>
+<div class="container">
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Position</th>
+      <th scope="col">Gender</th>
+      <th scope="col">Email</th>
+      <th scope="col">Salary</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let employee of employees" cdkDrag>
+      <th scope="row">{{employee.id}}</th>
+      <td>{{employee.first_name}}</td>
+      <td>{{employee.last_name}}</td>
+      <td>{{employee.position}}</td>
+      <td>{{employee.gender}}</td>
+      <td>{{employee.email}}</td>
+      <td>{{employee.salary}}</td>
+    </tr>
+    </tbody>
+    </table>
+
+  </div>

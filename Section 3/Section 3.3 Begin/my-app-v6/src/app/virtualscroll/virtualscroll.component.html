@@ -1,0 +1,22 @@
+<h2>Virtual Scroll</h2>
+
+<div class="container">
+    <cdk-virtual-scroll-viewport itemSize="50" class="vscroll-viewport">
+        <div *cdkVirtualFor="let employee of employees1k; index as i" class="vscroll-lits-item">
+            <h3>{{i+1}}. {{employee.first_name}} {{employee.last_name}}</h3>
+            <p>
+                {{employee.email}} - {{ employee.position}} - {{employee.salary}}
+            </p>
+        </div>
+    </cdk-virtual-scroll-viewport>
+
+    <cdk-virtual-scroll-viewport itemSize="50" class="vscroll-viewport">
+            <div *cdkVirtualFor="let employee of employees10k; index as i" class="vscroll-lits-item">
+                <h3>{{i+1}}. {{employee.first_name}} {{employee.last_name}}</h3>
+                <p>
+                    {{employee.email}} - {{ employee.position}} - {{employee.salary}}
+                </p>
+            </div>
+        </cdk-virtual-scroll-viewport>
+
+</div>

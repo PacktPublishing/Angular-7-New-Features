@@ -1,0 +1,47 @@
+<h3>Drag and Drop</h3>
+
+<div class="drag-drop-container">
+    <h3>To Do</h3>
+    <div class="drag-drop-list"
+        cdkDropList
+        #todoList="cdkDropList"
+        [cdkDropListData]="todo"
+        [cdkDropListConnectedTo]="[doingList]"
+        (cdkDropListDropped)="drop($event)">
+        <div class="drag-drop-box" *ngFor="let item of todo; index as i" cdkDrag>
+            {{i+1}}. {{item}}
+        </div>
+
+    </div>
+</div>
+
+<div class="drag-drop-container">
+    <h3>Doing</h3>
+    <div class="drag-drop-list"
+        cdkDropList
+        #doingList="cdkDropList"
+        [cdkDropListData]="activeList"
+        [cdkDropListConnectedTo]="[doneList]"
+        (cdkDropListDropped)="drop($event)">
+        <div class="drag-drop-box" *ngFor="let item of activeList; index as i" cdkDrag>
+            {{i+1}}. {{item}}
+        </div>
+
+    </div>
+</div>
+
+
+<div class="drag-drop-container">
+    <h3>Done</h3>
+    <div class="drag-drop-list"
+        cdkDropList
+        #doneList="cdkDropList"
+        [cdkDropListData]="done"
+        [cdkDropListConnectedTo]="[doingList,todoList]"
+        (cdkDropListDropped)="drop($event)">
+        <div class="drag-drop-box" *ngFor="let item of done; index as i" cdkDrag>
+            {{i+1}}. {{item}}
+        </div>
+
+    </div>
+</div>
