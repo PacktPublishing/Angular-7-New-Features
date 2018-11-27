@@ -1,0 +1,16 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <hr />
+  <nav>
+    <button (click)="toggleForm('templateDriven')">Template Driven</button>
+    <button (click)="toggleForm('reactive')">Reactive</button>
+    <button (click)="toggleForm('employees')">Employees</button>
+  </nav>
+
+  <template-driven *ngIf="showTemplateDriven"></template-driven>
+  <reactive-form *ngIf="showReactive"></reactive-form>
+  <employees-list *ngIf="showEmployees"></employees-list>
+</div>
