@@ -1,73 +1,38 @@
-# Angular-7-New-Features
-Angular 7 New Features, published by Packt
+# Angular 7 New Features [Video]
+This is the code repository for [Angular 7 New Features [Video]](https://www.packtpub.com/web-development/angular-7-new-features-video?utm_source=github&utm_medium=repository&utm_campaign=9781789619683), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the video course from start to finish.
+## About the Video Course
+Angular is one of the most-used JavaScript frameworks in the World. It provides a complete solution for building single-page applications. There is a large community that contributes to improving the framework. It is really important to get the most out of each Angular version as every version comes with updates and improvements. Angular 7 offers improved application performance.
+This course is quick, to the point, and informative. It covers each new feature that the framework has to offer to developers. You will also get to know what makes it different from Angular 6 and earlier versions of the framework. Then, you will learn to install the new Angular-CLI on your machine. Also, you will get the hang of other cool features such as virtual scrolling and drag and drop.
 
-# Angular-7-New-Features
-This is the code repository for Angular-7-New-Features, published by <a href="https://www.packtpub.com/">Packt</a>. It contains all the supporting project files necessary to work through the video course from start to finish.
+<H2>What You Will Learn</H2>
+<DIV class=book-info-will-learn-text>
+<UL>
+<LI>Build an angular 7 app from scratch 
+<LI>Use Angular Material to add styles to your app&nbsp; 
+<LI>Upgrade an angular 6 app tp angular 7 
+<LI>Create a new Angular 7 project with the angular-cli 
+<LI>Install the new angular-cli globally on your machine 
+<LI>Update an existing Angular 6 project to version 7 </LI></UL></DIV>
 
-# Description
-This course will be quick, to the point and informative. It will cover each of the new features that the framework has to offer to developers. You will also get to know what makes it different from version 6 and earlier versions of the framework. Then, you will learn to install the new angular-cli on your machine. Also, you will get the hang of other cool features like Virtual Scrolling and Drag and Drop. 
+## Instructions and Navigation
+### Assumed Knowledge
+To fully benefit from the coverage included in this course, you will need:<br/>
+This course is intended for web developers who are familiar with Angular and JavaScript for frontend development, and who want to get hands-on with the latest features of Angular. A basic knowledge of TypeScript, JavaScript, and Angular 2+ version is desirable. There is no need to have read or researched Angular 7's new features before this course.
+### Technical Requirements
+This course has the following software requirements:<br/>
+Angular 7 https://angular.io/
 
-# What You Will Learn
-- Build an angular 7 app from scratch
-- Use Angular Material to add styles to your app 
-- Upgrade an angular 6 app to angular 7
-- Create a new Angular 7 project with the angular-cli
-- Install the new angular-cli globally on your machine
-- Update an existing Angular 6 project to version 7
+Node.js LTS 8.9 or higher https://nodejs.org/en/
 
-# Requirements
-A good understanding of Web development (HTML, CSS, JavaScript) and a basic knowledge of Angular framework, the Object-Oriented Programming (OOP) paradigm, and Model-View-Controller (MVC) or the Model-View-View-Model (MVVM) architecture is expected.  Angular uses TypeScript as its main language so some knowledge of TypeScript is also expected.
+Webpack https://webpack.js.org/
 
-# Installation Instructions
-The source files do not include the <b>node_modules</b>.  Once a project is created using the Angular CLI, the <b>node_modules</b> will be created automatically.
 
-To create a new Angular project with the Angular CLI
-<pre>
-ng new my-project-name
-</pre>
+npm 5.5.1 or higher https://www.npmjs.com/
 
-To generate a new component, module, and service with the Angular CLI
-<pre>
-ng generate component mycomponent
-ng generate module mymodule
-ng generate service myservice
-</pre>
+## Related Products
+* [Troubleshooting Vue.js [Video]](https://www.packtpub.com/application-development/troubleshooting-vuejs-video?utm_source=github&utm_medium=repository&utm_campaign=9781788993531)
 
-The same commands above using short-hand notations
-<pre>
-ng g c mycomponent
-ng g m mymodule
-ng g s myservice
-</pre>
+* [Analyzing Network Traffic with Wireshark 2.6 [Video]](https://www.packtpub.com/networking-and-servers/analyzing-network-traffic-wireshark-26-video?utm_source=github&utm_medium=repository&utm_campaign=9781789137903)
 
-After a project is created, swap in the content in the folder from each section.
+* [Securing Applications in Node.js [Video]](https://www.packtpub.com/web-development/securing-applications-nodejs-video?utm_source=github&utm_medium=repository&utm_campaign=9781789136791)
 
-Each section has a <b>Section x.y.Start</b> folder and <b>Section x.y.End</b> folder (where x = section number, y = subsection number.  Example:  <b>Section 1.3.Start</b>, <b>Section 1.3.End</b>).  The <b>Section x.y.Start</b> contains all the files in the state before the video starts and <b>Section x.y.End</b> contains all the files in the state after the video ends.
-
-# Minimum Hardware Requirements
-For successful completion of this course, students will require the computer systems with at least the
-following:
-- OS: Any (Windows 7, 8, 10 or Mac OS or Linux distro)
-- Processor: 1 GHz Processor or faster
-- Memory: 1 GB RAM
-- Storage: ~10 GB
-
-# Recommended Hardware Requirements
-For an optimal experience with hands-on labs and other practical activities, we recommend the following
-configuration:
-- OS: Any (Windows 7, 8, 10 or Mac OS or Linux distro)
-- Processor: 1.6 GHz Processor or faster
-- Memory: 2 GB RAM
-- Storage: ~20 GB
-
-# Software Requirements
-- Operating system: Windows 7, 8, 10 or Mac OS or Linux distro
-- Browser: Google Chrome
-- Code Editor: Sublime, Brackets, Atom, WebStorm, Visual Studio Code
-- Others: Node.js LTS 8.x, npm 5.5.1 or above, Angular 6 & 7
-
-# Links For Required Software Downloads
-- Angular: https://angular.io/
-- Node.js https://nodejs.org/en/
-- Webpack: https://webpack.js.org/
-- npm: https://www.npmjs.com/
